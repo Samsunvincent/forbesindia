@@ -1,5 +1,9 @@
-.nav{
+
+*{
+    /* border: 2px solid black; */
+}.nav{
     background-color: black;
+  
 }
 .active:hover{
     color: white;
@@ -10,17 +14,161 @@
 .leadership-txt{
     color: white;
 }
-UL{
+ul{
     padding: 20px;
 }
 button{
     border: none;
     
 }
+
 .section-txt{
-  font-size: 12px;
+  font-size: 1px;
+ 
   font-weight: 400;
-  line-height: 13.2px;
+  /* line-height: 13.2px; */
   color: rgb(102, 102, 102);
   padding-left: 20px;
+}
+.mnc-img-txt1{
+    /* padding-top: 10px; */
+   color: white;
+    background-color: #9374B6;
+    margin-top: 10px;
+    display: flex;
+    padding-left: 15px;
+ 
+    align-items: center;
+    font-weight: 400;
+    /* line-height: 20px; */
+}
+.mnc-img-txt2{
+    
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34.56px;
+    
+}
+.col2-txt{
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(2, 19, 91);
+    font-size: 12px;
+
+}
+.col2-txt2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.04px;
+    color: rgb(51, 51, 51);
+    
+}
+.col2-txt3{
+    padding-top: 9px;
+}
+.col2-txt1{
+    padding-top: 10px;
+}
+.col2-txt4{
+    color: rgb(147, 116, 182);
+}
+.col2-txt5{
+    color:  rgb(226, 146, 38);
+}
+.bg-color{
+    background-color:#02135B;
+}
+#rocket-boys2{
+   padding-top: 50px;
+}
+.rocket-boys2-txt1{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color:  black
+}
+.groove-border{
+    border-bottom: 5px groove black;
+    padding-top: 10px;
+}
+.innovation-txt1{
+    background-color: #933F65;
+    font-size: 12px;
+}
+.bg-orange{
+    background-color:#E29226;
+}
+.bg-blue{
+    background-color: #02135B;
+}
+.popular-txt{
+    color: rgb(51, 51, 51);
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 60.48px;
+}
+.fluid-container{
+    height: 250px;
+}
+.multimedia-txt{
+    
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 60.48px;
+    color:  rgb(255, 255, 255);
+    display: flex;
+    
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.black{
+    padding-bottom: 200px;
+}
+.camera-img{
+    width: 25px;
+  
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.asd{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 3rem;
+}
+.forbes-list-img{
+
+    /* width: 608.85px; */
+    height: 255.6px;
+    background-color: #f2f2f2;
+    /* margin-top: 50px; */
+}
+.img-border{
+    width: 250px;
+    height: 95px;
+    background-color: white;
+
+    padding: 20px;
+}
+.centering{
+    padding-top: 70px;
+}
+.centering1{
+    
+    height: 100px;
+    border: 1px solid #cccdce;
+    box-shadow: 0 3px 15px #e5e5e5;
+    display: inline-block;
+    margin: 0 10px;
+}
+.again{
+    padding-top: 70px;
+    padding-left: 30px;
 }

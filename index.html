@@ -1,76 +1,473 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <ul class="nav justify-content-center bg-dark d-flex align-items-center">
-        <div class="dropdown bg-dark ">
-            <a class="btn btn-secondary bg-dark border-0" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="./icons8-menu-24.png" alt="">
-            </a>
-          
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li class="section-txt pl-2">SECTIONS</li>
-              <!-- <li><a class="dropdown-item section-txt" href="#">Sections</a></li> -->
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
-        <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#"><img src="./forbes-logo.png" alt=""></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active leadership-txt" aria-current="page" href="#">LEADERSHIP</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#">INNOVATION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#">BILLIONAIRES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#">LISTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#">STARTUPS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#">PODCASTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#">VIDEOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt" aria-current="page" href="#">LIFE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt text-danger" aria-current="page" href="#">SUBSCRIBE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active leadership-txt text-danger" aria-current="page" href="#">LOGIN</a>
-          </li>
-       
-        
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <ul class="nav justify-content-center bg-dark d-flex align-items-center">
+    <div class="dropdown bg-dark ">
+      <a class="btn btn-secondary bg-dark border-0" href="#" role="button" id="dropdownMenuLink"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="./icons8-menu-24.png" alt="">
+      </a>
+
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li class="section-txt pl-2">SECTIONS</li>
+        <!-- <li><a class="dropdown-item section-txt" href="#">Sections</a></li> -->
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
       </ul>
+    </div>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#"><img src="./forbes-logo.png" alt=""></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">LEADERSHIP</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">INNOVATION</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">BILLIONAIRES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">LISTS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">STARTUPS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">PODCASTS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">VIDEOS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt" aria-current="page" href="#">LIFE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt text-danger" aria-current="page" href="#">SUBSCRIBE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active leadership-txt text-danger" aria-current="page" href="#">LOGIN</a>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="row pt-4">
+      <img src="./forbes india images/forbes-logo.png" alt="">
+    </div>
+    <!-- <div class="col"> -->
+    <div class="row ">
+      <div class="col-lg-9">
+        <div class="row groove-border">
+          <div class="col-lg-7">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./forbes india images/mnc.jpg" class="d-block w-100 img-fluid" alt="...">
+                  <div class="mnc-img-txt1">TAKE ONE: BIG STORY OF THE DAY</div>
+                  <div class=" mnc-img-txt2">MNCs selling stake is a very </div>
+                  <div class="mnc-img-txt2">important signal:3P</div>
+                  <div class="mnc-img-txt2"> Investment's Prashant Jain</div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./forbes india images/farmer.jpg" class="d-block w-100 img-fluid" alt="...">
+                  <div class="mnc-img-txt1">TAKE ONE: BIG STORY OF THE DAY</div>
+                  <div class=" mnc-img-txt2">MNCs selling stake is a very </div>
+                  <div class="mnc-img-txt2">important signal:3P</div>
+                  <div class="mnc-img-txt2"> Investment's Prashant Jain</div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./forbes india images/rocket boys.jpg" class="d-block w-100 img-fluid" alt="...">
+                  <div class="mnc-img-txt1">TAKE ONE: BIG STORY OF THE DAY</div>
+                  <div class=" mnc-img-txt2">MNCs selling stake is a very </div>
+                  <div class="mnc-img-txt2">important signal:3P</div>
+                  <div class="mnc-img-txt2"> Investment's Prashant Jain</div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt">NEWS</div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By <b>Nasrin Sultana</b></div>
+            </div>
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt1 text-success">DARDEN SCHOOL OF BUSINESS-----------</div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By Darden School of Business</div>
+            </div>
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt1 col2-txt4">TAKE ONE: BIG STORY OF THE DAY
+              </div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By Anubhuti Matta</div>
+            </div>
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt1 col2-txt5">FORBES INDIA TECH CONVERSATIONSS</div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By Harichandan Arakali</div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-3">
+          <div class="col-lg-3">
+            <button type="button" class="btn btn-secondary innovation-txt1 ">INNOVATION</button>
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe beatae ea, recusandae quo perspiciatis
+              vitae?</div>
+            <div>------------------------------</div>
+          </div>
+          <div class="col-lg-3">
+            <button type="button" class="btn btn-secondary innovation-txt1 ">INNOVATION</button>
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, repudiandae non vel doloribus natus
+              numquam?</div>
+            <div>------------------------------</div>
+          </div>
+          <div class="col-lg-3">
+            <button type="button" class="btn btn-secondary innovation-txt1 ">INNOVATION</button>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sunt, debitis quibusdam odit
+              quidem velit?</div>
+            <div>------------------------------</div>
+          </div>
+          <div class="col-lg-3">
+            <button type="button" class="btn btn-secondary innovation-txt1 ">INNOVATION</button>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis doloremque omnis ipsam! Aspernatur,
+              cupiditate</div>
+            <div>------------------------------</div>
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col-lg-4">
+            <img src="./forbes india images/mnc-1.jpg" alt="" class="w-100">
+            <button type="button" class="btn btn-secondary innovation-txt1 mt-3">INNOVATION</button>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non sint repellat vel voluptates
+              nulla laudantium fugit adipisci ab perferendis porro natus asperiores id odit obcaecati cumque assumenda,
+              nemo voluptatibus!</div>
+          </div>
+          <div class="col-lg-4">
+            <img src="./forbes india images/food plate cost.jpg" alt="" class="w-100">
+            <button type="button" class="btn btn-secondary innovation-txt1 mt-3">INNOVATION</button>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non sint repellat vel voluptates
+              nulla laudantium fugit adipisci ab perferendis porro natus asperiores id odit obcaecati cumque assumenda,
+              nemo voluptatibus!</div>
+          </div>
+          <div class="col-lg-4">
+            <img src="./forbes india images/chip.jpg" alt="" class="w-100">
+            <button type="button" class="btn btn-secondary innovation-txt1 mt-3">INNOVATION</button>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non sint repellat vel voluptates
+              nulla laudantium fugit adipisci ab perferendis porro natus asperiores id odit obcaecati cumque assumenda,
+              nemo voluptatibus!</div>
+          </div>
+          <div>----------------------------</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt">NEWS</div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By <b>Nasrin Sultana</b></div>
+            </div>
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt1 text-success">DARDEN SCHOOL OF BUSINESS-----------</div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By Darden School of Business</div>
+            </div>
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt1 col2-txt4">TAKE ONE: BIG STORY OF THE DAY
+              </div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By Anubhuti Matta</div>
+            </div>
+            <div class="pt-2">
+              <div class="fs-6 fw-normal col2-txt1 col2-txt5">FORBES INDIA TECH CONVERSATIONSS</div>
+              <div class="col2-txt2">How India Eats: Heat,</div>
+              <div class="col2-txt2">unseasonal rains, virus</div>
+              <div class="col2-txt2">infestation push veg thali</div>
+              <div class="col2-txt2">prices higher in June</div>
+              <div class="col2-txt3">By Harichandan Arakali</div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img src="./forbes india images/badminton.jpg" class="d-block w-100 img-fluid  " alt="...">
+            <div class="mnc-img-txt1 bg-primary d-inline ">PHOTO OF THE DAY</div>
+            <div><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda labore, id temporibus cum
+                animi exercitationem odio at accusantium perspiciatis.</b></div>
+          </div>
+        </div>
+        <div class="groove-border"></div>
+        <div class="popular-txt pt-2">Popular Now</div>
+        <div class="row pt-4">
+          <div class="col-lg-4">
+            <img src="./forbes india images/tennis.jpg" alt="" class="w-100">
+            <button type="button" class="btn btn-secondary innovation-txt1 mt-3 bg-orange">PHOTO OF THE DAY</button>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non sint repellat vel voluptates
+              nulla laudantium fugit adipisci ab perferendis porro natus asperiores id odit obcaecati cumque assumenda,
+              nemo voluptatibus!</div>
+          </div>
+          <div class="col-lg-4">
+            <img src="./forbes india images/two-ladies.jpg" alt="" class="w-100">
+            <button type="button" class="btn btn-secondary innovation-txt1 mt-3 bg-blue">NEWS</button>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non sint repellat vel voluptates
+              nulla laudantium fugit adipisci ab perferendis porro natus asperiores id odit obcaecati cumque assumenda,
+              nemo voluptatibus!</div>
+          </div>
+          <div class="col-lg-4">
+            <img src="./forbes india images/football.jpg" alt="" class="w-100">
+            <button type="button" class="btn btn-secondary innovation-txt1 mt-3 bg-orange">PHOTO OF THE DAY</button>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non sint repellat vel voluptates
+              nulla laudantium fugit adipisci ab perferendis porro natus asperiores id odit obcaecati cumque assumenda,
+              nemo voluptatibus!</div>
+          </div>
+          <div>----------------------------</div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img src="./forbes india images/rocket boys2.jpg" alt="" class="w-100" id="rocket-boys2">
+        <div class="rocket-boys2-txt1 pt-2">Subscribe today and save upto</div>
+        <div class="rocket-boys2-txt1 ">76% off the cover price</div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-dark dark-bg p-5">
+    <div class="container container1">
+      <span class="link-light multimedia-txt">Multimedia</span>
+      <div class="multimedia-txt1">
+        <button type="button" class="btn btn-dark asd lg">ALL</button>
+        <span class="link-light"><img src="./forbes india images/icons8-camera-50.png" alt=""
+            class="camera-img">PHOTO</span>
+        <span class="link-light"><img src="./forbes india images/icons8-video-24.png" alt=""
+            class="camera-img">VIDEO</span>
+        <span class="link-light"><img src="./forbes india images/icons8-headphone-32.png" alt=""
+            class="camera-img">AUDIO</span>
+      </div>
+    
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./forbes india images/indiaeconomyrates_sm.jpg" alt="" class="w-100">
+         
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="./forbes india images/kapilchopra.jpg" alt="" class="w-100">
+              <div class="link-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, volupt</div>
+            </div>
+            <div class="col-lg-6">
+              <img src="./forbes india images/formula.jpg" alt="" class="w-100">
+              <div class="link-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, volupt</div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col-lg-4">
+              <img src="./forbes india images/fancodesportsunltdsmrevised.jpg" alt="" class="w-100">
+              <div class="link-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, volupt</div>
+            </div>
+            <div class="col-lg-4">
+              <img src="./forbes india images/fancodesportsunltdsmrevised.jpg" alt="" class="w-100">
+              <div class="link-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, volupt</div>
+            </div>
+            <div class="col-lg-4">
+              <img src="./forbes india images/fancodesportsunltdsmrevised.jpg" alt="" class="w-100">
+              <div class="link-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, volupt</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="container">
+    <div class="row forbes-list-img mt-3">
+      <div class="col">
+        <div class="row ">
+          <div class="col-lg-6 text-center">
+            <img src="./forbes india images/forbeslists.png" alt="">
+            <div class="row d-flex justify-content-between centering">
+              <div class="col-lg-6">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-border">
+                        <img src="./forbes india images/asaasas.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-border">
+                        <img src="./forbes india images/asaasas.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-border">
+                        <img src="./forbes india images/asaasas.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                 
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-border">
+                        <img src="./forbes india images/asaasas.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-border">
+                        <img src="./forbes india images/asaasas.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-border">
+                        <img src="./forbes india images/asaasas.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                
+                 
+                </div>
+                <!-- <div class="img-border">
+                  <img src="./forbes india images/asaasas.jpg" alt="" class="w-100">
+                </div> -->
+              </div>
+  
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="./forbes india images/forbespecials.png" alt="">
+            <div class="row">
+              <div class="col-lg-4 again">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-border1 d-flex justify-content-evenly centering1">
+                      <img src="./forbes india images/plan.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./forbes india images/climate specials.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./forbes india images/climate specials.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-4 again">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-border1 d-flex justify-content-evenly centering1">
+                        <img src="./forbes india images/life luxw.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./forbes india images/life luxw.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./forbes india images/life luxw.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 again">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-border1 d-flex justify-content-evenly centering1">
+                        <img src="./forbes india images/fromthefield.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./forbes india images/15yearslogo_360x270.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./forbes india images/mad1a.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+               
+                  <!-- <img src="./forbes india images/plan.jpg" alt="" class="w-100">
+                </div> --> 
+              </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <!-- <div class="fs-1 fw-bold pt-4">More Stories</div> -->
+  </div>
+  
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
